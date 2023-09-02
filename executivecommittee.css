@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&family=Poppins:ital@1&display=swap');
+
+
+.log{
+    width:80px;
+    height:80px;
+    padding:10px;
+    border-radius: 25px;
+    font-family: 'Pacifico', cursive;
+}
+.child3{
+    margin-top:10px;}
+.navsize{
+    font-size: 18px;
+}
+
+.child0{
+    padding: 20px;
+}
+
+.child1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    justify-content: center;
+    position:sticky;
+    min-width:100px;
+    min-height: 100px;
+}
+
+.child2{
+    padding: 35px;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 28px;
+    color: brown;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card{
+    position: relative;
+    isolation: isolate;
+    width: 400px;
+    height:300px;
+    background-color: #000;
+    border-radius: 8px;
+
+}
+
+.card_image{
+    display:block;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: 0 20%;
+    border-radius: inherit;
+    transition: transform 250ms;
+    padding:20px;
+}
+
+.card:hover .card_image{
+    transform: translateY(-112px) scale(0.75);
+}
+
+.card_body{
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 24px;
+    color:black;
+
+}
+
+.card_category{
+    color:#fff;
+}
+
+.card_button{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: #f4c644;
+    color:#000;
+}
+
+.avatar{
+        vertical-align: middle;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    
+}
+
+.imoo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+/*footers*/
+.alpha{
+    padding:10px;
+    color: #FF0000;
+  }
+  .beta{
+    background-color:black;
+    color:#FFFFFF;
+    padding:10px;
+  }
+  .gamma{
+    padding:10px;
+  }
+  
+  /*span{
+    font-style: bold;
+  }*/
+  .icon1{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 15px;
+    }
+  
+  .iconav{
+    /*margin-left: 38%;*/
+  }
+  
+  
+  .bard{
+    height:auto;
+  }
+  
+  
+  
+  

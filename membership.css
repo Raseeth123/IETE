@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&family=Poppins:ital@1&display=swap');
+
+
+.log{
+    width:80px;
+    height:80px;
+    padding:10px;
+    border-radius: 25px;
+    font-family: 'Pacifico', cursive;
+}
+
+.navsize{
+    font-size: 18px;
+}
+
+
+.childn{
+    width:80%;
+   padding: 20px;
+   margin-bottom: 40px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: dodgerblue;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid black;
+    box-shadow: 1px 2px black;
+}
+
+.parent1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    justify-content: center;
+    position:sticky;
+    min-width:100px;
+    min-height: 100px;
+
+}
+
+.child1{
+    width:65%;
+    border: 2px solid black;
+    box-shadow: 1px 2px black;
+    text-align: center;
+    padding:20px;
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size:16px ;
+    border-radius: 25px;
+
+}
+
+.childsupport{
+    padding-bottom:25px;
+}
+
+.arrow{
+    width:70px;
+    height:50px;
+    border-radius: 100px;
+    border: none;
+}
+
+.child1:hover{
+    background-color: dodgerblue;
+    color: black;
+    font-weight: bold;
+    transition: all .5s;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.deco{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.deco:hover{
+    color:black
+}
+
+.decon{
+    font-size: 18px;
+}
+
+/*footers*/
+.alpha{
+    padding:10px;
+    color: #FF0000;
+  }
+  .beta{
+    background-color:black;
+    color:#FFFFFF;
+    padding:10px;
+  }
+  .gamma{
+    padding:10px;
+  }
+  
+  /*span{
+    font-style: bold;
+  }*/
+  .icon1{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 15px;
+    }
+  
+  .iconav{
+    /*margin-left: 38%;*/
+  }
+  
+  
+  .bard{
+    height:auto;
+  }
+  
+  
+  
+  
+
+@media only screen and (max-width: 600px) {
+    .childn{
+        padding:25px;
+        text-align: center;
+    }
+
+    .child1{
+        font-size: 16px;
+        width:70%;
+    }
+}
+

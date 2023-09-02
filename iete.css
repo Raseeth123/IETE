@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&family=Poppins:ital@1&display=swap');
+
+
+.log{
+    width:80px;
+    height:80px;
+    padding:10px;
+    border-radius: 25px;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+}
+
+.navsize{
+    font-size: 18px;
+}
+
+body{
+    
+    background: url('https://res.cloudinary.com/dudu5p1pv/image/upload/v1693671838/knnr6thokhr6tqnlys5k.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /*<style>
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); 
+}
+</style>
+
+<div class="zoom"></div>*/
+
+.cot1{
+    position: relative;
+    width:65%;
+    padding:20px;
+    margin:80px auto;
+    background-color: black;
+    text-align: center;
+    border-radius: 20px;
+    padding:25px;
+    box-shadow: 3px 5px black;
+    text-align: center;
+    opacity:0.8;
+}
+
+.log1{
+    width:130px;
+    height:130px;
+    border-radius: 20px;
+}
+
+log1:hover{
+    opacity: 1;
+    transition: .9s;
+}
+
+.quote{
+    /*font-family: 'Courgette', cursive;
+    font-family: 'Pacifico', cursive;*/
+    /*font-family: 'Poppins', sans-serif;*/
+    font-weight: bold;
+    color:white;
+    padding:20px;
+    font-size: 26px;
+}
+
+.quote:hover{
+  font-size: 28px;
+  transition: transform .2s;
+}
+
+.events1{
+  /*font-family: 'Courgette', cursive;
+  font-family: 'Pacifico', cursive;*/
+  /*font-family: 'Poppins', sans-serif;*/
+  font-size: 24px;
+  font-weight: bold;
+  color: cornflowerblue;
+}
+
+.button1{
+  padding:15px;
+  color:black;
+  background-color: cornflowerblue;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.button1:hover{
+  background-color: aliceblue;
+  color: black;
+}
+
+.log3{
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+/*div{
+  height: 300px;
+}
+.ct{
+  height: 600px;
+}
+.white{
+  background-color: white;
+}*/
+
+.mod{
+  font-size: 28px;
+}
+
+.child2{
+  text-align:left;
+  font-size: 18px;
+}
+
+.button12{
+  padding:8px;
+  color:black;
+  background-color: cornflowerblue;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.headoo{
+  text-align: center;
+  color: brown;
+}
+
+.flexooo{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            justify-content: center;
+            position:sticky;
+            min-width:100px;
+            min-height: 100px;
+}
+
+.flexoo1{
+  width:60%;
+  background-color: white;
+  margin:150px auto;
+  padding:20px;
+  text-align: center;
+ 
+}
+
+.posters{
+  width: 60%;
+  height:60%;
+ 
+
+}
+
+/*eve*/
+.child1{
+  width:65%;
+  border: 2px solid black;
+  box-shadow: 1px 2px black;
+  height:70%;
+  text-align: center;
+  padding:25px;
+  margin-bottom: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size:16px ;
+  border-radius: 25px;
+
+}
+
+.parent1{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px;
+  justify-content: center;
+  position:sticky;
+  min-width:100px;
+  min-height: 100px;
+  text-align: center;
+
+}
+
+.childsupport{
+  padding-bottom:25px;
+  text-align: center;
+}
+/*eve*/
+
+.ret{
+  margin-left:50px;
+}
+
+/*footer*/
+/*.foot{
+  background-color: black;
+  width:auto;
+  height:300px;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;*/
+ /* justify-content: center;*/
+  /*position:sticky;
+ min-width:100px;
+  min-height: 100px;
+}
+
+.align{
+  margin-left:0px;
+}
+
+.footer{
+  padding:10px;
+
+}
+.social{
+  text-align: center;
+
+}*/
+
+.alpha{
+  padding:10px;
+  color: #FF0000;
+}
+.beta{
+  background-color:black;
+  color:#FFFFFF;
+  padding:10px;
+}
+.gamma{
+  padding:10px;
+}
+
+/*span{
+  font-style: bold;
+}*/
+.icon1{
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 15px;
+  }
+
+.iconav{
+  /*margin-left: 38%;*/
+}
+
+
+.bard{
+  height:auto;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .log1{
+        margin-left:18px;
+    }
+
+    .navsize{
+      font-size: 16px;
+    }
+
+    .log{
+      width:70px;
+      height:70px;
+    }
+
+    .mod{
+      font-size: 22px;
+      text-align: center;
+    }
+
+    .child2{
+      text-align: justify;
+      font-size: 19px;
+
+    }
+
+    .quote{
+      font-size: 20px;
+    }
+
+    .posters{
+      width:70%;
+      height:70%;
+      text-align: center;
+    }
+
+    .child1{
+      width:80%;
+    }
+
+    .ret{
+      margin-right:80px;
+      width:75%;
+      height:75%;
+    }
+  }
+
+  
